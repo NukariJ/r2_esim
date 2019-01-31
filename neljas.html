@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lomakkeet</title>
+    <script src="form.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>html-forms</h1>
+    <h2>POST-metodi</h2>
+    <p>
+      <form id="postForm" action="index.html" method="post">
+        <label for="">Etunimi</label> <br>
+        <input type="text" name="" value=""><br>
+        <label for="">Sukunimi</label><br>
+        <input type="text" name="sn" value=""><br>
+        <input type="submit" name="" value="Lähetä">
+      </form>
+      <button type="button" onclick="postData()">Testi painike</button>
+    </p>
+    <h2>GET-metodi</h2>
+    <p>
+      <form id="getForm" action="index.html" method="get">
+        <label for="">Etunimi</label> <br>
+        <input type="text" name="" value=""><br>
+        <label for="">Sukunimi</label><br>
+        <input type="text" name="sn" value=""><br>
+        <input type="submit" name="" value="Lähetä">
+      </form>
+      <button type="button" onclick="getData()">Testi painike</button>
+    </p>
+    <p id="results">
+    </p>
+  </body>
+</html>

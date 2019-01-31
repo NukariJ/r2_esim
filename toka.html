@@ -2,12 +2,37 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Toka sivu</title>
+    <script src="myJs.js" charset="utf-8"></script>
   </head>
   <body>
     <h1>Toinen sivu</h1>
     <p>
       <a href="eka.html"><button>takaisin eka sivulle</button></a>
+    </p>
+    <h2>JavaScriptiä</h2>
+    <p>
+      Popup avautuu painikkeesta
+      <button type="button" onclick="showPopup()">Klikkaa</button>
+    </p>
+    <p>
+      Kirjoita nimesi
+      <input type="text" id="fname" value="">
+      <button type="button" onclick="showName()">Lähetä</button>
+    </p>
+    <p id="message">
+    </p>
+    <p>
+
+      Valitse kieli <br>
+      <button type="button" onclick="showInfo('fin.html')" >FIN</button>
+      <button type="button" onclick="showInfo('eng.html')">ENG</button>
+      <div class="info">
+        <br>
+        Linkkeinä <br>
+        <a href="#" onclick="showInfo('fin.html')">FIN</a>
+        <a href="#" onclick="showInfo('eng.html')">ENG</a>
+      </div>
     </p>
   </body>
 </html>

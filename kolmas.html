@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScriptiä</title>
+  </head>
+  <body>
+    <h1>Javascript esimerkki</h1>
+    <label for="fname">Anna nimesi</label>
+    <input type="text" id="fname" name="" value="">
+    <button type="button" onclick="savename()">Tallenna</button>
+  </body>
+</html>
+<script type="text/javascript">
+  function saveName(){
+    //console.Log('painiketta painettu');
+    var fn = document.getElementById('fname').value;
+    console.log(fn);
+  }
+
+</script>

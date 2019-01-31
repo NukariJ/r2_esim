@@ -8,4 +8,23 @@ h2{
 .myClass1{
   background-color: #8caadb;
   border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  border-style: solid;
+}
+.redText{
+  color: red;
+}
+#footer{
+  background-color: lightgray;
+  text-align: center;
+  height: 200px;
+}
+#header{
+  background-color: black;
+  color: white;
+  padding-left: 30px;
+}
+#container{
+  margin-left: 30px;
 }
